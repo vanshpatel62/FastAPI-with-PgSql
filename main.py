@@ -9,7 +9,9 @@ from fastapi import FastAPI
 from routers import customers, products, orders, order_items, payments
 
 # Creates the FastAPI application object. "title" just shows up in the docs page - OPTIONAL, change/remove anytime.
+
 app = FastAPI(title="E-Commerce CRUD API")
+
 
 # ---------------------------------------------------------------------
 # OPTIONAL: CORS (Cross-Origin Resource Sharing)
